@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new NAD\EntityBundle\EntityBundle(),
             new NAD\WebsiteBundle\WebsiteBundle(),
             new NAD\CMSBundle\CMSBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
